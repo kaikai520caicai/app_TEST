@@ -1,0 +1,20 @@
+# 色肉
+#name: "菜宝"
+##NAME: "凯宝"
+##info:
+##  age: "18"
+##  height: "175cm"
+#info:
+#  - "kaikai"
+#  - "18"
+#info: ["kaikai","18"]
+#info:
+#  - name: "kaikai"
+#  - age: "18"
+#data: 2020-11-11 11:11:11
+info: &data
+  name: "kaikai"
+  moile: "13311111111"
+add:
+  <<: *data
+  age: "18"
